@@ -1,0 +1,27 @@
+.map-container {
+  height: 100%;
+  width: 100%;
+  min-height: 500px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  /*overflow: hidden; */
+  /*/background-color: #f0f0f0;*/
+}
+
+.leaflet-popup-content {
+  font-size: 14px;
+  line-height: 1.6;
+  min-width: 200px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.leaflet-popup-content strong {
+  color: #333;
+}
+
+/* Styling for the tab content sections to ensure they scroll within the popup */
+.tab-content {
+  max-height: 350px;
+  overflow-y: auto;
+}

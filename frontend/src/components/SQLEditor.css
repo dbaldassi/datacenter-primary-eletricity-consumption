@@ -1,0 +1,114 @@
+.sql-editor-wrapper {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.sql-editor-container {
+  font-family: 'Courier New', monospace;
+  font-size: 14px;
+  min-height: 200px;
+  max-height: 400px;
+  overflow: auto;
+}
+
+.sql-editor-container .cm-editor {
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.sql-editor-container .cm-scroller {
+  overflow: auto;
+  font-family: 'Courier New', monospace;
+}
+
+.sql-editor-container .cm-content {
+  padding: 0.5rem 0;
+}
+
+.sql-editor-container .cm-line {
+  padding: 0 0.5rem;
+  line-height: 1.5;
+}
+
+/* Ensure proper styling for focused editor */
+.sql-editor-container .cm-focused {
+  outline: 2px solid #007bff;
+  outline-offset: -2px;
+}
+
+/* Line numbers styling */
+.sql-editor-container .cm-gutters {
+  background-color: #f8f9fa;
+  border-right: 1px solid #ddd;
+  color: #6c757d;
+  padding-right: 0.5rem;
+  min-width: 3rem;
+}
+
+/* Active line highlight */
+.sql-editor-container .cm-activeLine {
+  background-color: #f0f8ff;
+}
+
+.sql-editor-container .cm-activeLineGutter {
+  background-color: #e1f0ff;
+}
+
+/* SQL Syntax highlighting */
+.sql-editor-container .cm-content .tok-keyword {
+  color: #0000ff;
+  font-weight: bold;
+}
+
+.sql-editor-container .cm-content .tok-string {
+  color: #a31515;
+}
+
+.sql-editor-container .cm-content .tok-number {
+  color: #098658;
+}
+
+.sql-editor-container .cm-content .tok-comment {
+  color: #008000;
+  font-style: italic;
+}
+
+.sql-editor-container .cm-content .tok-operator {
+  color: #000000;
+}
+
+.sql-editor-container .cm-content .tok-punctuation {
+  color: #000000;
+}
+
+.sql-editor-container .cm-content .tok-typeName {
+  color: #267f99;
+}
+
+.sql-editor-container .cm-content .tok-variableName {
+  color: #001080;
+}
+
+/* Selection */
+.sql-editor-container .cm-selectionBackground,
+.sql-editor-container .cm-content ::selection {
+  background-color: #add6ff !important;
+}
+
+/* Cursor */
+.sql-editor-container .cm-cursor {
+  border-left: 2px solid #000000;
+}
+
+/* Matching brackets */
+.sql-editor-container .cm-matchingBracket {
+  background-color: #d0d0d0;
+  outline: 1px solid #b0b0b0;
+}
+
+/* Error styling */
+.sql-editor-container .cm-line.cm-invalid {
+  background-color: #ffe6e6;
+}

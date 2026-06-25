@@ -1,0 +1,84 @@
+# Node.js
+node_modules/
+dist/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.vscode/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# macOS
+.DS_Store
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+venv/
+.env
+
+# FastAPI
+instance/
+*.db
+*.sqlite3
+server/datasets/
+
+# Python packaging
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.vscode/
+.idea/
+
+# Coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+*.cover
+coverage.xml
+.cache
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Pyright
+pyrightconfig.json
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite3
+
+# Testing
+.pytest_cache/
+
+# Temp files
+*.swp
+*.swo
+*.tmp
+*.temp
+*.out
+
+# System-specific
+Thumbs.db
+.DS_Store
+
+# Heroku
+*.env files
+/server/datasets/*.csv
+.aider*
