@@ -1,0 +1,18 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Datacenter mapping tool
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: David
+    family-names: Baldassin
+    email: baldassin@i3s.unice.fr
+    affiliation: Université Côte d'Azur
+repository-code: >-
+  https://github.com/dbaldassi/datacenter-primary-eletricity-consumption/tree/main
+license: MIT
+commit: 775c40c
